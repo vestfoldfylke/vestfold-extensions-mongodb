@@ -52,12 +52,7 @@ public class MongoDbService : IMongoDbService
             return collection;
         });
         
-        if (collection == null)
-        {
-            throw new InvalidOperationException($"Collection '{collectionName}' in database '{databaseName}' not found");
-        }
-        
-        return collection;
+        return collection ?? throw new InvalidOperationException($"Collection '{collectionName}' in database '{databaseName}' not found");
     }
 
     private async Task<IMongoDatabase> GetDatabase(string databaseName, MongoDatabaseSettings? databaseSettings = null)

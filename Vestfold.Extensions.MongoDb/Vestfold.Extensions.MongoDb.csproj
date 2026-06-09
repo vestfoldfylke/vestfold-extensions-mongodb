@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
 
         <PackageId>Vestfold.Extensions.MongoDb</PackageId>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <Authors>Rune Moskvil Lyngås</Authors>
         <Company>Vestfold fylkeskommune</Company>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -30,10 +30,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.6" />
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.6" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.6" />
-        <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="10.0.8" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.8" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.8" />
+        <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
     </ItemGroup>
 
     <PropertyGroup>
