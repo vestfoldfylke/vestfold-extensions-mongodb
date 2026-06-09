@@ -16,10 +16,6 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
 
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-
-        <NugetAudit>true</NugetAudit>
-        <NugetAuditMode>all</NugetAuditMode> <!-- all (direct and transitive dependencies), direct (direct dependencies only) -->
-        <NugetAuditLevel>moderate</NugetAuditLevel> <!-- low (->), moderate (->), high (->), critical (->) -->
     </PropertyGroup>
 
     <ItemGroup>
